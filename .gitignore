@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+web-build/
+
+# environment & secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo / native
+.expo/
+.kotlin/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# macOS
+.DS_Store
